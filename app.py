@@ -9,7 +9,6 @@ import PyPDF2
 load_dotenv()
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
-# GROQ_API_KEY = "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"
 MODEL_NAME = "llama-3.3-70b-versatile"
 
 # --- Page Config ---
